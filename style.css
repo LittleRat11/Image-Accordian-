@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title-img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 1em auto;
+}
+
+.title-img img {
+    width: 100%;
+    background: transparent;
+}
+
+.gallery-container {
+    position: absolute;
+    margin: auto;
+    top: 70%;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+
+.item {
+    height: 100%;
+    cursor: pointer;
+}
